@@ -23,7 +23,12 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+"globals": {  
+      "__app_id": true,
+      "__firebase_config": true,
+      "__initial_auth_token": true
+    }
   },
   "browserslist": {
     "production": [
